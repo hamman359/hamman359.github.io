@@ -3,7 +3,7 @@ layout : layout
 title : SiteName
 ---
 @model Pretzel.Logic.Templating.Context.PageContext
-
+<h1>Index.md</h1>
 <ul class="posts">
 @{
     var numberPosts = 5;
