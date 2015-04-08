@@ -1,0 +1,1 @@
+pretzel.exe taste --template=razor --directory=./_source --destination=./_site

@@ -1,0 +1,1 @@
+pretzel.exe bake --template=razor --directory=./_source --destination=./_site

@@ -1,4 +1,3 @@
-@model Pretzel.Logic.Templating.Context.PageContext
 <?xml version="1.0" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
@@ -7,20 +6,24 @@
     <atom:link href="http://domain/rss.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-au</language>
-    <pubDate>@Model.Site.Time.ToString("ddd, dd MMM yyyy H:mm:ss K")</pubDate>
-    <lastBuildDate>@Model.Site.Time.ToString("ddd, dd MMM yyyy H:mm:ss K")</lastBuildDate>
+    <pubDate>Tue, 07 Apr 2015 19:27:18 -04:00</pubDate>
+    <lastBuildDate>Tue, 07 Apr 2015 19:27:18 -04:00</lastBuildDate>
 
-    @foreach (var post in Model.Site.Posts)
-    {
         <item>
-            <title>@post.Title</title>
-            <link>http://domain@post.Url</link>
-            <pubDate>@post.Date.ToString("ddd, dd MMM yyyy H:mm:ss K")</pubDate>
+            <title>My First Post</title>
+            <link>http://domain/2015/04/07/myfirstpost.html</link> 	
+            <pubDate>Tue, 07 Apr 2015 0:00:00 </pubDate>
             <author>Author</author>
-            <guid>http://domain@post.Url</guid>
-            <description>@post.Content</description>
+            <guid>http://domain/2015/04/07/myfirstpost.html</guid>
+            <description>&lt;h2&gt;Hello world...&lt;/h2&gt;
+&lt;p&gt;Code:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cs&quot;&gt;static void Main() 
+{
+    Console.WriteLine(&amp;quot;Hello World!&amp;quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is my first post on the site!&lt;/p&gt;</description>
         </item>
-    }
 
   </channel> 
 </rss>

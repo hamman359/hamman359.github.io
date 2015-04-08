@@ -3,7 +3,7 @@
   <title>Feed Name</title>
   <link href="http://domain/"/>
   <link type="application/atom+xml" rel="self" href="http://domain/atom.xml"/>
-  <updated>2015-04-06T20:17:05</updated>
+  <updated>2015-04-07T19:27:18</updated>
   <id>http://domain/</id>
   <author>
     <name>Author</name>
@@ -11,15 +11,21 @@
   </author>
 
       <entry>
-          <id>http://domain//2015/04/06/myfirstpost.html</id>
-          <link type="text/html" rel="alternate" href="http://domain//2015/04/06/myfirstpost.html"/>
+          <id>http://domain//2015/04/07/myfirstpost.html</id>
+          <link type="text/html" rel="alternate" href="http://domain//2015/04/07/myfirstpost.html"/>
           <title>My First Post</title>
-          <updated>2015-04-06T00:00:00</updated>
+          <updated>2015-04-07T00:00:00</updated>
           <author>
               <name>Author</name>
               <uri>http://domain/</uri>
           </author>
           <content type="html">&lt;h2&gt;Hello world...&lt;/h2&gt;
+&lt;p&gt;Code:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-cs&quot;&gt;static void Main() 
+{
+    Console.WriteLine(&amp;quot;Hello World!&amp;quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This is my first post on the site!&lt;/p&gt;</content>
       </entry>
 </feed>

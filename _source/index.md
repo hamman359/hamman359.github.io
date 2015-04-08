@@ -16,7 +16,6 @@ title : SiteName
                 @if (i == 0 && post.Layout == "post")
                 {
                     <h1><a href="@post.Url">@post.Title</a></h1>
-
                     <div class="postdate">@post.Date.ToString("d MMM, yyyy")
                         <ul>
                             @foreach(var tag in post.Tags)
@@ -41,7 +40,6 @@ title : SiteName
                         </ul>
                     </div>
                     @Raw(post.Content)
-
                     <a href="@post.Url#disqus_thread">Comments</a>
                 }
             </div>
@@ -51,7 +49,7 @@ title : SiteName
 
 <h3>OLDER</h3>
 <ul class="postArchive">
-@foreach(var post in Model.Site.Posts.Skip(5))
+@foreach(var post in Model.Site.Posts.Skip(numberPosts))
 {
     <li>
         <span class="olderpostdate">@post.Date.ToString("d m")</span> <a class="postlink" href="@post.Url">@post.Title</a>
