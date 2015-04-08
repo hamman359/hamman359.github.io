@@ -6,8 +6,8 @@
     <atom:link href="http://domain/rss.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-au</language>
-    <pubDate>Tue, 07 Apr 2015 19:27:18 -04:00</pubDate>
-    <lastBuildDate>Tue, 07 Apr 2015 19:27:18 -04:00</lastBuildDate>
+    <pubDate>Wed, 08 Apr 2015 8:59:17 -04:00</pubDate>
+    <lastBuildDate>Wed, 08 Apr 2015 8:59:17 -04:00</lastBuildDate>
 
         <item>
             <title>My First Post</title>
@@ -17,12 +17,13 @@
             <guid>http://domain/2015/04/07/myfirstpost.html</guid>
             <description>&lt;h2&gt;Hello world...&lt;/h2&gt;
 &lt;p&gt;Code:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-cs&quot;&gt;static void Main() 
+&lt;p&gt;&lt;code&gt;cs
+static void Main() 
 {
     Console.WriteLine(&amp;quot;Hello World!&amp;quot;);
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This is my first post on the site!&lt;/p&gt;</description>
+}&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This is my first post on the site!&lt;/p&gt;
+</description>
         </item>
 
   </channel> 
