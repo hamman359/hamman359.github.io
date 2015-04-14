@@ -1,1 +1,1 @@
-pretzel.exe bake --template=razor --destination=_site
+pretzel.exe bake --template=liquid --destination=_site

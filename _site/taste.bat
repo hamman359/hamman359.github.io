@@ -1,1 +1,1 @@
-pretzel.exe taste --template=razor --destination=_site
+pretzel.exe taste --template=liquid --destination=_site
